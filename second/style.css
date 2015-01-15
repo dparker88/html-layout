@@ -1,0 +1,32 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+}
+.column-left{
+	width: 33%;
+	height: 100%;
+	background-color: blue;
+	padding: 0;
+	float: left;
+}
+.column-middle{
+	width: 33%;
+	height: 100%;
+	background-color: yellow;
+	padding: 0;
+	display: inline-block;
+}
+.column-right{
+	width: 33%;
+	height: 100%;
+	background-color: green;
+	padding: 0;
+	float: right;
+}
+.image-placeholder{
+	color: white;
+	background-color: red;
+}
