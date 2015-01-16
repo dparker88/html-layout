@@ -3,44 +3,30 @@ body, html{
 	width: 100%;
 	margin: 0;
 }
-.container {
-	position: relative;
-	width: 100%;
-	margin: 0;
-}
-.container div {
-	height: 1000px;
+.column{
+	width: 33.33%;
+	height: 100%;
+	float: left;
 }
 
-.column-left {
-	width: 33%;
-	left: 0;
-	background: #00F;
-	position: absolute;
+
+.blue {
+	background: #4A90E2 ;
 }
-.column-center {
-	width: 34%;
-	background: #933;
-	margin-left: 33%;
-	position: absolute;
+.teal {
+	background: #8DC8BB;
 }
-.column-right {
-	width: 33%;
-	right: 0;
-	position: absolute;
+.green{
+	background: #B7CAA3;
 	
 }
-.above-image{
-	background: #999;
+.column-top{
+	width: 100%;
 	height: 80%;
-	right: 0;
-	position: absolute;
 }
-.image{
+.column-bottom{
 	background: url("http://betterbakingbible.com/wp-content/uploads/2013/08/oreo-cake-cookies-and-cream-recipe-better-baking-bible-blog-cookies-vanilla-chocoalte-cream.jpg");
-	max-height: 75px;
-	right: 0;
-	position: absolute;
-	padding: 0;
-	margin-left: -15px
+	width: 100%;
+	height: 20%;
+	background-size: cover;
 }
