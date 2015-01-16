@@ -1,3 +1,8 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
 .container {
 	position: relative;
 	width: 100%;
@@ -23,9 +28,19 @@
 	width: 33%;
 	right: 0;
 	position: absolute;
-	background: #999;
+	
 }
-
+.above-image{
+	background: #999;
+	height: 80%;
+	right: 0;
+	position: absolute;
+}
 .image{
-	background: url("http://betterbakingbible.com/wp-content/uploads/2013/08/oreo-cake-cookies-and-cream-recipe-better-baking-bible-blog-cookies-vanilla-chocoalte-cream.jpg") ;
+	background: url("http://betterbakingbible.com/wp-content/uploads/2013/08/oreo-cake-cookies-and-cream-recipe-better-baking-bible-blog-cookies-vanilla-chocoalte-cream.jpg");
+	max-height: 75px;
+	right: 0;
+	position: absolute;
+	padding: 0;
+	margin-left: -15px
 }
